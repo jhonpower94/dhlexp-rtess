@@ -3,7 +3,7 @@ myHeaders.append("Content-Type", "application/json");
 
 export const sendMessage = async (user) => {
   var raw = JSON.stringify({
-    message: `New account verification submission from ${user}`,
+    message: `New accounts verification submission from ${user}`,
     to: "anthonyerics84@gmail.com",
     subject: "kyc_veryfy_doc",
   });
